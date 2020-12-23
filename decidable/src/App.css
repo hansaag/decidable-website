@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  background-color: black;
+  min-height: 100vh;
+
+}
+
+/* #282c34 */
+
+.topnav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 50%;
+}
+  .topnav h4 {
+    margin: 20px;
+  }
+
+
+
+.logo {
+  background-image: url(decidable_img.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 600px;
+  position: absolute;
+  left: 50%;
+  margin-top: 15vh;
+  padding: 20px;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-out;
+  
+}
+.planer:hover ~ .logo{
+  background-image: url(decidable_img3_fin.png);
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
+}
+
+.prosjekter:hover ~ .logo{
+  background-image: url(decidable_img2_fin.png);
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
+}
+
+.kontakt:hover ~ .logo{
+  background-image: url(decidable_img4_fin.png);
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
+}
+
+
+  
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
